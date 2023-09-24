@@ -1,0 +1,63 @@
+@import "./colours.css";
+
+:root {
+  --page-bg-colour: var(--grey-050);
+  --element-bg-colour: #fff;
+  --text-colour: var(--grey-900);
+  --text-background-colour: #fff;
+  --text-colour-secondary: #3e4c59;
+  --element-shadow: 0 2px 5px rgba(201, 209, 230, 0.5),
+    0 7px 20px rgba(201, 209, 230, 0.75);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page-bg-colour: var(--grey-800);
+    --element-bg-colour: var(--grey-900);
+    --text-colour: var(--grey-100);
+    --text-background-colour: var(--grey-700);
+    --text-colour-secondary: var(--grey-200);
+    --element-shadow: 0 2px 5px rgba(20, 29, 30, 0.5),
+      0 7px 20px rgba(20, 29, 30, 0.75);
+  }
+}
+
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: var(--page-bg-colour);
+  color: var(--text-colour);
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-colour);
+}

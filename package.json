@@ -1,0 +1,16 @@
+{
+  "name": "satsuma",
+  "version": "0.1.0",
+  "description": "**TODO: Add description**",
+  "main": "./priv/static/satsuma.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test",
+    "priv": "priv"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Raul Chedrese",
+  "license": "ISC",
+}

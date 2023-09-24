@@ -1,0 +1,28 @@
+.insight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 120px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: var(--element-bg-colour);
+  border-radius: 6px;
+  box-shadow: var(--element-shadow);
+  border: none;
+}
+
+.insight__values {
+  display: flex;
+}
+
+.insight__main-value {
+  margin-right: 20px;
+  font-size: 36px;
+}
+
+.insight__compare-value {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
