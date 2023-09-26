@@ -39,6 +39,7 @@
   min-height: 100px;
   padding: 4px 6px;
   font-size: 16px;
+  color: var(--text-colour);
   border-radius: 4px;
   border: 2px solid var(--grey-200);
   resize: none;
