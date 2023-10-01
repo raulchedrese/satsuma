@@ -1,11 +1,1 @@
-import "./reset.css";
-
-import "./components/panel.css";
-import "./components/list.css";
-import "./components/select.css";
-import "./components/button.css";
-import "./components/form.css";
-import "./components/dropdown.css";
-import "./components/insight.css";
-import "./components/page.css";
-import "./components/stack.css";
+import "./satsuma.css";
