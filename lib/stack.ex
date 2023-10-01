@@ -1,5 +1,6 @@
 defmodule Satsuma.Stack do
   use Phoenix.Component
+  import Satsuma.Util
 
   slot(:inner_block, required: true)
   attr(:justify, :string, default: "flex-start")
@@ -17,16 +18,5 @@ defmodule Satsuma.Stack do
       <%= render_slot(@inner_block) %>
     </div>
     """
-  end
-
-  defp styles(styles) do
-    Enum.map(styles, fn {k, v} ->
-      if v do
-        k
-      else
-        nil
-      end
-    end)
-    |> Enum.filter(fn style -> style != nil end)
   end
 end

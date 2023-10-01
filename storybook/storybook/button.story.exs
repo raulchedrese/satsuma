@@ -13,6 +13,16 @@ defmodule Storybook.Button do
         slots: [
           "Send"
         ]
+      },
+      %Variation{
+        id: :full_width,
+        description: "Full width Button component",
+        attributes: %{
+          full_width: true
+        },
+        slots: [
+          "Send"
+        ]
       }
     ]
   end
