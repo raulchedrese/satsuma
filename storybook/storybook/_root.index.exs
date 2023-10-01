@@ -15,6 +15,6 @@ defmodule Storybook.Root do
   end
 
   def entry("button") do
-    [name: "Button"]
+    [name: "Button", icon: {:fa, "hand-pointer", :thin}]
   end
 end
