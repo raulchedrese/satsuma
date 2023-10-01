@@ -1,12 +1,11 @@
-.dropdown {
+.satsuma_dropdown {
   position: relative;
   display: flex;
   align-items: center;
 
-  .dropdown__target {
-  }
+  .satsuma_dropdown__target {}
 
-  .dropdown__content {
+  .satsuma_dropdown__content {
     position: absolute;
     visibility: hidden;
     display: none;

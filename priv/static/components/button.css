@@ -1,6 +1,6 @@
 @import "../colours.css";
 
-.button {
+.satsuma_button {
   display: inline-block;
   padding: 8px 10px;
   font-size: 18px;
@@ -16,6 +16,6 @@
   }
 }
 
-.button--full-width {
+.satsuma_button--full-width {
   width: 100%;
 }

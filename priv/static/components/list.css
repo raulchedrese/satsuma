@@ -1,4 +1,4 @@
-.list {
+.satsuma_list {
   li:first-child {
     a {
       border: none;
@@ -6,19 +6,19 @@
   }
 }
 
-.list__item {
+.satsuma_list__item {
   display: flex;
   justify-content: space-between;
   padding: 20px;
   border-top: 1px solid var(--text-colour);
 }
 
-.list__item-title {
+.satsuma_list__item-title {
   width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-li.list__item:first-child {
+li.satsuma_list__item:first-child {
   border-top: none;
 }

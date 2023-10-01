@@ -7,11 +7,11 @@ defmodule Satsuma.List do
 
   def list(assigns) do
     ~H"""
-    <ul class="list">
+    <ul class="satsuma_list">
       <%= for item <- @list_item do %>
         <li>
-          <a class="list__item" href={item.link}>
-            <div class="list__item-title"><%= render_slot(item) %></div>
+          <a class="satsuma_list__item" href={item.link}>
+            <div class="satsuma_list__item-title"><%= render_slot(item) %></div>
           </a>
         </li>
       <% end %>

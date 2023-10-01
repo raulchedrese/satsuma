@@ -7,10 +7,10 @@ defmodule Satsuma.Stats do
 
   def stat(assigns) do
     ~H"""
-    <div class="insight">
-      <div class="insight__title"><%= render_slot(@label) %></div>
-      <div class="insight__values">
-        <div class="insight__main-value">
+    <div class="satsuma_insight">
+      <div class="satsuma_insight__title"><%= render_slot(@label) %></div>
+      <div class="satsuma_insight__values">
+        <div class="satsuma_insight__main-value">
           <%= render_slot(@number) %>
         </div>
         <div class="insight__compare-value">
@@ -25,7 +25,7 @@ defmodule Satsuma.Stats do
 
   def label(assigns) do
     ~H"""
-    <div class="insight__title"><%= render_slot(@inner_block) %></div>
+    <div class="satsuma_insight__title"><%= render_slot(@inner_block) %></div>
     """
   end
 end

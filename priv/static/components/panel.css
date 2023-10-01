@@ -1,6 +1,6 @@
 @import "../colours.css";
 
-.panel {
+.satsuma_panel {
   min-width: 300px;
   width: 100%;
   margin-bottom: 20px;
@@ -11,7 +11,7 @@
   border: none;
 }
 
-.panel__heading {
+.satsuma_panel__heading {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,6 +19,6 @@
   border-bottom: 1px solid var(--grey-200);
 }
 
-.panel__content {
+.satsuma_panel__content {
   padding: 20px;
 }

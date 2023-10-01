@@ -13,7 +13,7 @@ defmodule Satsuma.Stack do
     assigns = assign(assigns, :style, style)
 
     ~H"""
-    <div class="h-stack" style={@style}>
+    <div class="satsuma_h-stack" style={@style}>
       <%= render_slot(@inner_block) %>
     </div>
     """
