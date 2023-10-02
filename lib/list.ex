@@ -9,8 +9,8 @@ defmodule Satsuma.List do
     ~H"""
     <ul class="satsuma_list">
       <%= for item <- @list_item do %>
-        <li>
-          <a class="satsuma_list__item" href={item.link}>
+        <li class="satsuma_list__item">
+          <a href={item.link}>
             <div class="satsuma_list__item-title"><%= render_slot(item) %></div>
           </a>
         </li>

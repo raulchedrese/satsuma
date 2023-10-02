@@ -1,6 +1,5 @@
 defmodule Storybook.Button do
   use PhoenixStorybook.Story, :component
-
   alias Satsuma.Button
 
   def function, do: &Button.button/1
@@ -17,6 +16,16 @@ defmodule Storybook.Button do
       %Variation{
         id: :full_width,
         description: "Full width Button component",
+        attributes: %{
+          full_width: true
+        },
+        slots: [
+          "Send"
+        ]
+      },
+      %Variation{
+        id: :icon,
+        description: "Icon button",
         attributes: %{
           full_width: true
         },
