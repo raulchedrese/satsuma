@@ -21,4 +21,8 @@ defmodule Storybook.Root do
   def entry("list") do
     [name: "List", icon: {:fa, "hand-wave", :thin}]
   end
+
+  def entry("panel") do
+    [name: "Panel", icon: {:fa, "hand-wave", :thin}]
+  end
 end
