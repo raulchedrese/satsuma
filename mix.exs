@@ -4,7 +4,7 @@ defmodule Satsuma.MixProject do
   def project do
     [
       app: :satsuma,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.15",
       description: "A simple component LiveView component library",
       start_permanent: Mix.env() == :prod,
