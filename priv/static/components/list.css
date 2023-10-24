@@ -5,8 +5,25 @@
 .satsuma_list__item {
   display: flex;
   justify-content: space-between;
-  padding: 12px;
+  padding: 4px;
+}
+
+.satsuma_list--separator .satsuma_list__item {
   border-top: 1px solid var(--text-colour);
+}
+
+.satsuma_list__target {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.satsuma_list__target:hover {
+  background-color: var(--grey-200);
 }
 
 .satsuma_list__item:first-child {

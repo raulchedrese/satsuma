@@ -7,6 +7,10 @@ defmodule Storybook.List do
     [
       %Variation{
         id: :default,
+        attributes: %{
+          height: "400px",
+          separator: true
+        },
         slots: [
           """
           <:list_item link="hi">Item 1</:list_item>
